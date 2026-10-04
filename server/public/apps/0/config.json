@@ -121,7 +121,7 @@
       "content": {
         "0": {
           "type": "SECTION",
-          "sectionId": "section_3",
+          "sectionId": "section_1",
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
@@ -179,41 +179,13 @@
         "0"
       ]
     },
-    "layout_8": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_15",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "92.0%",
-            "width": "100.0%",
-            "height": "8.0%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
     "layout_9": {
       "content": {
         "0": {
           "type": "WIDGET",
           "widgetId": "widget_7",
           "bbox": {
-            "left": "50%",
+            "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
             "bottom": "0.0%",
@@ -222,13 +194,13 @@
           },
           "setting": {
             "autoProps": {
-              "left": false,
-              "right": true,
+              "left": true,
+              "right": false,
               "top": true,
               "bottom": false
             },
             "vCenter": false,
-            "hCenter": true
+            "hCenter": false
           }
         }
       },
@@ -372,133 +344,6 @@
         "2"
       ]
     },
-    "layout_13": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_13",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "93.4%",
-            "width": "100.0%",
-            "height": "6.6%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            }
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_14": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_17",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "91.6%",
-            "width": "100.0%",
-            "height": "8.4%"
-          },
-          "setting": {
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": false,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_15": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_14",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 7,
-            "height": 27.3125
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_16": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_16",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 7,
-            "height": 37.359375
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_17": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_18",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 7,
-            "height": 40.21875
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
     "layout_18": {
       "content": {
         "0": {
@@ -520,9 +365,21 @@
         "0",
         "1"
       ]
+    },
+    "layout_19": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {}
+    },
+    "layout_21": {
+      "type": "FIXED",
+      "content": {}
     }
   },
-  "exbVersion": "1.20.0",
+  "exbVersion": "1.19.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/master/",
   "forBuilderAttributes": {
@@ -532,7 +389,7 @@
   "widgets": {
     "widget_2": {
       "uri": "widgets/layout/column/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Column",
       "config": {
         "space": 10,
@@ -556,7 +413,7 @@
     },
     "widget_3": {
       "uri": "widgets/layout/row/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Row",
       "config": {
         "space": 10,
@@ -588,7 +445,7 @@
     },
     "widget_4": {
       "uri": "widgets/common/text/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Text",
       "config": {
         "text": "<p style=\"line-height: 1.5;\"><strong style=\"font-size: 25px;\">Search Features</strong></p>",
@@ -600,7 +457,7 @@
     },
     "widget_5": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Sidebar",
       "config": {
         "direction": "HORIZONTAL",
@@ -638,8 +495,8 @@
                 "color": "var(--sys-color-action-text)"
               },
               "bg": {
-                "useTheme": true,
-                "color": "var(--sys-color-action)"
+                "useTheme": false,
+                "color": "var(--sys-color-primary-text)"
               }
             },
             "hover": {
@@ -674,7 +531,7 @@
     },
     "widget_6": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Sidebar 2",
       "config": {
         "direction": "VERTICAL",
@@ -748,7 +605,7 @@
     },
     "widget_7": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Map",
       "config": {
         "toolConfig": {
@@ -890,7 +747,7 @@
     },
     "widget_8": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Fixed Panel",
       "config": null,
       "id": "widget_8",
@@ -902,7 +759,7 @@
     },
     "widget_9": {
       "uri": "widgets/common/button/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Button",
       "config": {
         "functionConfig": {
@@ -927,7 +784,7 @@
           "textExpression": null,
           "linkParam": {
             "linkType": "VIEW",
-            "value": "page_0,view_5",
+            "value": "page_0,view_3",
             "openType": "_self"
           },
           "toolTip": "Table",
@@ -975,7 +832,7 @@
     },
     "widget_11": {
       "uri": "widgets/common/button/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Button 2",
       "config": {
         "functionConfig": {
@@ -1000,7 +857,7 @@
           "textExpression": null,
           "linkParam": {
             "linkType": "VIEW",
-            "value": "page_0,view_4",
+            "value": "page_0,view_2",
             "openType": "_self"
           },
           "toolTip": "Search",
@@ -1048,7 +905,7 @@
     },
     "widget_12": {
       "uri": "widgets/common/button/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Button 3",
       "config": {
         "functionConfig": {
@@ -1073,7 +930,7 @@
           "textExpression": null,
           "linkParam": {
             "linkType": "VIEW",
-            "value": "page_0,view_3",
+            "value": "page_0,view_1",
             "openType": "_self"
           },
           "toolTip": "Charts",
@@ -1119,122 +976,9 @@
       "id": "widget_12",
       "useDataSources": []
     },
-    "widget_13": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Row 2",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_13",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_15"
-        }
-      }
-    },
-    "widget_14": {
-      "uri": "widgets/common/text/",
-      "version": "1.20.0",
-      "label": "Text 2",
-      "config": {
-        "text": "<p><strong style=\"font-size: 16px; color: var(--ref-palette-neutral-1300);\">View2</strong></p>",
-        "style": {
-          "wrap": true,
-          "color": "var(--ref-palette-neutral-1300)"
-        }
-      },
-      "id": "widget_14"
-    },
-    "widget_15": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Row 3",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_15",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_16"
-        }
-      },
-      "style": {
-        "background": {
-          "color": "var(--ref-palette-neutral-700)",
-          "fillType": "fill",
-          "image": {
-            "url": ""
-          }
-        },
-        "textColor": "var(--ref-palette-neutral-1200)"
-      }
-    },
-    "widget_16": {
-      "uri": "widgets/common/text/",
-      "version": "1.20.0",
-      "label": "Text 3",
-      "config": {
-        "text": "<p><strong style=\"font-size: 16px;\">﻿View</strong></p>",
-        "style": {
-          "wrap": true
-        }
-      },
-      "id": "widget_16"
-    },
-    "widget_17": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Row 4",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_17",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_17"
-        }
-      }
-    },
-    "widget_18": {
-      "uri": "widgets/common/text/",
-      "version": "1.20.0",
-      "label": "Text 4",
-      "config": {
-        "text": "<p><strong style=\"font-size: 16px;\">View3</strong></p>",
-        "style": {
-          "wrap": true
-        }
-      },
-      "id": "widget_18"
-    },
     "widget_19": {
       "uri": "widgets/common/controller/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "inControllerUx": "offPanel",
       "label": "Widget Controller",
       "config": {
@@ -1268,7 +1012,7 @@
     },
     "widget_20": {
       "uri": "widgets/arcgis/map-layers/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Map Layers",
       "config": {
         "useMapWidget": true,
@@ -1282,7 +1026,7 @@
     },
     "widget_21": {
       "uri": "widgets/arcgis/bookmark/",
-      "version": "1.20.0",
+      "version": "1.19.0",
       "label": "Bookmark",
       "config": {
         "displayFromWeb": false,
@@ -1304,66 +1048,55 @@
   },
   "widgetsManifest": {},
   "views": {
-    "view_3": {
-      "id": "view_3",
+    "view_1": {
+      "id": "view_1",
       "label": "View",
       "layout": {
-        "LARGE": "layout_8"
+        "LARGE": "layout_19"
       },
       "backgroundPosition": "fit",
-      "backgroundColor": "var(--ref-palette-neutral-700)",
+      "backgroundColor": "rgba(152,97,177,0.2)",
       "backgroundIMage": {
         "url": ""
       },
-      "textColor": "var(--ref-palette-neutral-1200)"
+      "textColor": "#000"
     },
-    "view_4": {
-      "id": "view_4",
+    "view_2": {
+      "id": "view_2",
       "label": "View 2",
       "layout": {
-        "LARGE": "layout_13"
+        "LARGE": "layout_20"
       },
       "backgroundPosition": "fit",
-      "backgroundColor": "rgba(230,229,147,0.31)",
+      "backgroundColor": "rgba(0,83,29,0.2)",
       "backgroundIMage": {
         "url": ""
       },
-      "textColor": "#1d1d00"
+      "textColor": "#ffffff"
     },
-    "view_5": {
-      "id": "view_5",
+    "view_3": {
+      "id": "view_3",
       "label": "View 3",
       "layout": {
-        "LARGE": "layout_14"
+        "LARGE": "layout_21"
       },
       "backgroundPosition": "fit",
-      "backgroundColor": "rgba(55,172,152,0.28)",
+      "backgroundColor": "rgba(101,62,0,0.16)",
       "backgroundIMage": {
         "url": ""
       },
-      "textColor": "#00201b"
+      "textColor": "#ffffff"
     }
   },
   "sections": {
-    "section_3": {
-      "id": "section_3",
+    "section_1": {
+      "id": "section_1",
       "label": "Section",
       "views": [
-        "view_3",
-        "view_4",
-        "view_5"
-      ],
-      "arrowsNav": {
-        "visible": false,
-        "direction": "h"
-      },
-      "autoPlay": false,
-      "loop": false,
-      "dotsNav": {
-        "visible": false,
-        "size": "19",
-        "position": "b"
-      }
+        "view_1",
+        "view_2",
+        "view_3"
+      ]
     }
   },
   "dialogs": {},
@@ -1371,7 +1104,7 @@
   "attributes": {
     "portalUrl": "https://muralidhar.maps.arcgis.com"
   },
-  "timestamp": 1791042682529,
+  "timestamp": 1791084619363,
   "sharedThemeVariables": null,
   "mainLocale": "en-us",
   "dataSources": {
@@ -1388,5 +1121,5 @@
       "page_0": []
     }
   ],
-  "publishTimestamp": 1791042683918
+  "publishTimestamp": 1791084620260
 }

@@ -2,7 +2,7 @@
   "created": 1786594075872,
   "description": "",
   "id": "0",
-  "modified": 1791042683925,
+  "modified": 1791084620264,
   "owner": "muralidharmoka",
   "tags": [],
   "thumbnail": null,
@@ -14,10 +14,10 @@
     "Ready To Use",
     "JavaScript",
     "status: Published",
-    "version:1.20.0",
+    "version:1.19.0",
     "template:blankfullscreen",
-    "modified: 1791042682597",
-    "publishVersion:1.20.0"
+    "modified: 1791084619433",
+    "publishVersion:1.19.0"
   ],
   "portalUrl": "https://muralidhar.maps.arcgis.com",
   "username": "muralidharmoka",
