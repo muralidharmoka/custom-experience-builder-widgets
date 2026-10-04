@@ -1,0 +1,40 @@
+# Ignore everything by default
+/*
+
+# Keep .gitignore
+!/.gitignore
+
+
+# ==========================================
+# CLIENT - track custom widgets only
+# ==========================================
+!/client/
+/client/*
+
+!/client/your-extensions/
+/client/your-extensions/*
+
+!/client/your-extensions/widgets/
+!/client/your-extensions/widgets/**
+
+
+# ==========================================
+# SERVER - track public/apps only
+# ==========================================
+!/server/
+/server/*
+
+!/server/public/
+/server/public/*
+
+!/server/public/apps/
+!/server/public/apps/**
+
+
+# ==========================================
+# NEVER TRACK NODE_MODULES
+# Keep these rules LAST
+# ==========================================
+/client/node_modules/
+/server/node_modules/
+**/node_modules/
