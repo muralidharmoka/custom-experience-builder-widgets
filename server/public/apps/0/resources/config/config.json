@@ -368,7 +368,33 @@
     },
     "layout_19": {
       "type": "FIXED",
-      "content": {}
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_22",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "33.5%",
+            "width": "100.0%",
+            "height": "66.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     },
     "layout_20": {
       "type": "FIXED",
@@ -1045,6 +1071,12 @@
       "useMapWidgetIds": [
         "widget_7"
       ]
+    },
+    "widget_22": {
+      "uri": "widgets/service-request-search/",
+      "version": "1.17.0",
+      "config": null,
+      "id": "widget_22"
     }
   },
   "widgetsManifest": {},
@@ -1105,7 +1137,7 @@
   "attributes": {
     "portalUrl": "https://muralidhar.maps.arcgis.com"
   },
-  "timestamp": 1791084619363,
+  "timestamp": 1791085001951,
   "sharedThemeVariables": null,
   "mainLocale": "en-us",
   "dataSources": {
