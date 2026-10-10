@@ -1,8 +1,9 @@
 {
   "name": "service-request-search",
+  "label": "Service Request Search",
   "type": "widget",
-  "version": "1.17.0",
-  "exbVersion": "1.17.0",
+  "version": "1.20.0",
+  "exbVersion": "1.20.0",
   "author": "Your Name",
   "description": "A hello world starter widget",
   "copyright": "",
